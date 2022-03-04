@@ -4,7 +4,7 @@
 while true; do
         cnt=`ps -ef|grep test.sh|awk '{print $2}'|wc -l`
         if [ $cnt -gt 1 ]; then
-                echo "proc check" `ps -ef|grep test.sh`
+                # echo "proc check" `ps -ef|grep test.sh`
             # Frame #1
                 printf "\r< Loading..."
                     sleep 0.5
